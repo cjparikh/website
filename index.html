@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1000px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .product-item {
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            width: calc(33% - 40px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We are a leading company dedicated to providing high-quality products that meet our customers' needs. With a focus on innovation and excellence, we strive to deliver the best shopping experience.</p>
+</section>
+
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="product">
+        <!-- Loop for 20 products -->
+        <!-- Repeat this block for 20 products -->
+        <!-- Product 1 -->
+        <div class="product-item">
+            <img src="https://via.placeholder.com/150" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Price: $10.00</p>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-item">
+            <img src="https://via.placeholder.com/150" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>Price: $20.00</p>
+        </div>
+        <!-- ... -->
+        <!-- Repeat Product Items -->
+        <!-- Product 20 -->
+        <div class="product-item">
+            <img src="https://via.placeholder.com/150" alt="Product 20">
+            <h3>Product 20</h3>
+            <p>Price: $200.00</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@example.com</p>
+    <p>Phone: +123 456 7890</p>
+    <p>Address: 123 Main Street, Anytown, USA</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
